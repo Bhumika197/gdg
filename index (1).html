@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magical Landing Page</title>
+<!--    <link rel="icon" href="images/gdg-icon.png" type="image/png" sizes="16x16" />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="new.css" rel="stylesheet"> -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-blue': '#0a0a20',
+                        'navy-blue': '#0d1933',
+
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'pt-serif': ['PT Serif', 'serif'],
+                    },
+                    backgroundImage: {
+                        'hero-pattern': "url('background.png')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class =  "text-white leading-relaxed bg-gradient-to-b from-dark-blue to navy-blue overflow-x-hidden">
+    <header class="py-2 fixed w-full top-0 z-10 bg-transparent">
+        <nav class="bg-dark-blue/50 w-11/12 max-w-lg mx-auto my-auto my-2 rounded-full flex justify-center items-center px-3 box-border ">
+            <ul class = "flex justify-center list-none p-0 m-0 flex-wrap py-2 ">
+                <li class = "mx-2 sm:mx-4 my-1">Home</li>
+                <li class = "mx-2 sm:mx-4 my-1">About</Li>
+                    <li class = "mx-2 sm:mx-4 my-1">Contact</Li>
+                        <li class = "mx-2 sm:mx-4 my-1">FAQ</Li>
+                           
+            </ul>
+        </nav>
+
+    </header>
+ <section class=" bg-hero-pattern bg-cover min-h-screen flex flex-col justify-center  items-left px-4 py-16"> 
+    <h1 class="text-4xl"> Web Wizard 3.0</h1>
+    <div id="div1" class="flex flex-col items-left justify-center">
+        <p> Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Sapiente tempora <br>at amet, 
+             iure nihil, repellat recusandae eaque <br> similique voluptatem unde laboriosam rerum eligendi<br> ad ipsa enim illo minus delectus molestiae!</p >
+        <div class="w-full flex justify-center items-center">
+            <button class="bg-blue-500 w-[10vw] px-4 py-2 rounded-md" > JOIN NOW </button>
+        </div>
+    </div>
+ </section>
+<!--Your code here -->
+</body>
+</html>
