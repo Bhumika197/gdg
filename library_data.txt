@@ -1,0 +1,3 @@
+Harry Potter,J.K. Rowling,false
+The Hobbit,J.R.R. Tolkien,false
+1984,George Orwell,false
